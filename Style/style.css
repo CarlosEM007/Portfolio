@@ -1,0 +1,46 @@
+@keyframes borderanimation {
+	0%   {border-color: #DD761C;}
+	20%  {border-color: #FEB941;}
+	40%  {border-color: #FDE49E;}
+	60% {border-color: #6DC5D1;}
+	80%  {border-color: #FDE49E;}
+	100%  {border-color: #FEB941;}
+  }
+
+.imgDetails {
+	border: 5px #e95420 solid;
+	animation: borderanimation 5s infinite;
+	border-radius: 10px;
+	transition: transform 0.5s ease, box-shadow 0.5s ease;
+      box-shadow: +10px +5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.imgDetails:hover {
+	transform: scale(1.1); /* Ao passar o mouse, aumenta o tamanho em 20% */
+    box-shadow: +20px +10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.imgDetails, #esq {
+	margin-left: 50px;
+}
+
+.imgDetails, #dir {
+	margin-left: 280px;
+}
+
+p em  {
+	color: #e95420;
+}
+
+.itemlist, .Esq {
+	margin-left: 40px
+}
+
+.itemlist, .Dir {
+	margin-left: 270px;
+}
+
+
+
+
